@@ -4,7 +4,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/style.css">
    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-   <title>Sweet Dreams</title>
+   <title>Sweet - Dreams</title>
 </head>
 <body>
 <?php 
