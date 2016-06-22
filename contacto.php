@@ -7,8 +7,9 @@
    <title>Sweet Dreams</title>
 </head>
 <body>
-<?php 
+<?php
 include('menu.php');
+
 ?>
     <br>
     <br>
@@ -23,7 +24,6 @@ include('menu.php');
 	<div class="row">
 		<label for="email">Tu email:</label><br />
                 <input id="email" class="input" name="email" type="text" value="" size="30" /><br /> <img src="images/2016-06-08.png" style="float: right"/> </right>
-                
 	</div>
 	<div class="row">
 		<label for="message">Tu mensaje:</label><br />
@@ -31,7 +31,7 @@ include('menu.php');
 	</div>
     <br>
     <br>
-	<input id="submit_button" type="submit" value="Enviar email" />
+    <input id="submit_button" type="submit" value="Enviar email" href="testmail/envioemail.php"</input>
 </left>
 <br>
 <br>
