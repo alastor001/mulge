@@ -7,7 +7,7 @@
    <title>Sweet Dreams</title>
 </head>
 <body>
-<?php
+<?php 
 include('menu.php');
 
 ?>
@@ -16,7 +16,7 @@ include('menu.php');
     <br>
     <br>
 <left>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <form id="contact_form" action="home.php" method="POST" enctype="multipart/form-data">
 	<div class="row">
 		<label for="name">Tu nombre:</label><br />
 		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -31,7 +31,9 @@ include('menu.php');
 	</div>
     <br>
     <br>
-    <input id="submit_button" type="submit" value="Enviar email" href="testmail/envioemail.php"</input>
+    <input id="submit_button" type="submit" value="Enviar email"</input>
+    
+    </form>
 </left>
 <br>
 <br>

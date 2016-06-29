@@ -24,7 +24,7 @@ include('menu.php');
       <label for="email">Email <span></span></label><div></div>
       <input type="email" name="email" class="form-input" /><br>
       <label for="password">password <span></span></label><div></div>
-      <input type="text" name="password" class="form-input" required/><br>
+      <input type="password" name="password" class="form-input" required/><br>
       <label for="ciudad">ciudad <span></span></label><div></div>
       <input type="text" name="ciudad" class="form-input" required/><br>
       <label for="direccion">direccion <span></span></label><div></div>

@@ -24,5 +24,7 @@ include('menu.php');
 <img  src="images/2016-06-08.png" alt="" />
 </center>
 </body>
-<div id="footer"> diseñado por Mulge </div>
+<footer>
+    <p> diseñado por mulge</p>
+</footer>
 </html>

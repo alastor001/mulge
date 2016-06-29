@@ -20,7 +20,6 @@ $tarjeta=$_POST['tarjeta'];
 //if(isset($_POST['num_tarjeta'])){$num_tarjeta=$_POST['num_tarjeta'];}
 // else {$num_tarjeta='';}
 //$ciudad =$_POST['ciudad'];
- 
 
 
 $query = "INSERT INTO `cliente`(`rut_cliente`"
@@ -37,13 +36,16 @@ $query = "INSERT INTO `cliente`(`rut_cliente`"
         . "'$nombre',"
         . "'$email',"
         . "'$direccion',"
-        . "'$password',"
+        . "'$hash',"
         . "'$tarjeta',"
         . "'$ciudad')";
 echo ':'.$query;
 $rsRegistro=$conn->query($query);
 
 if(!$rsRegistro )
+   
+    
+
 {
     echo "error al insertar datos";
 }
